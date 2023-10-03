@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Pixelify+Sans&family=Share+Tech+Mono&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Pixelify Sans", cursive;
+  color: whitesmoke;
+}
+
+#home {
+  background-color: darkslategrey;
+}
+
+#helicopter {
+  background-color: cornflowerblue;
+}
+
+#butterfly {
+  background-color: skyblue;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 100px;
+}
+
+.clickableImage:hover {
+  transform: scale(1.1);
+}
