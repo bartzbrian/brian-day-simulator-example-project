@@ -6,8 +6,8 @@ var sparkleSound, butterflyImage;
 function preload() {
   //load your sound into a variable in the exact same way that you load an image, except using "loadSound" instead of "loadImage"
 
-  sparkleSound = loadSound("../media/sparkle.wav");
-  butterflyImage = loadImage("../media/butterfly.png");
+  sparkleSound = loadSound("media/sparkle.wav");
+  butterflyImage = loadImage("media/butterfly.png");
 }
 
 function setup() {
